@@ -1,3 +1,3 @@
 n = int(input())
-m = int(input())
-print((m + n - 1) // n)
+k = int(input())
+print((n - k % n) % n)
